@@ -62,9 +62,14 @@ any build-advice request, on this thread or elsewhere.
   (1440p) → RTX 5080 (4K) → RTX 5090 (path tracing/DLSS5-focused builds).
   *(Again: the blanket AMD-GPU exclusion is the thread's opinion, not fact —
   see caveat above.)*
-- **PSU**: linked to hwbusters' ATX v3/PCIe 5-ready PSU picks (page didn't
-  load from this environment — 403 — open directly; PCIe 5/ATX v3 matters
-  specifically for the 12V-2x6 GPU power connector on newer high-end cards).
+- **PSU**: hwbusters' "Best PSU Picks 2026" tier list (still 403s automated
+  fetches directly, but confirmed via search — hands-on tested for
+  efficiency, ripple suppression, transient response, fan noise, and
+  build quality, not just spec-sheet numbers). One concrete example
+  surfaced: the MSI MPG Ai1300TS PCIE5 (ATX 3.1 / PCIe 5.1, dual
+  12V-2×6 connectors) — PCIe 5/ATX v3 matters specifically for that
+  12V-2×6 GPU power connector on newer high-end cards, so check a PSU's
+  connector generation against your GPU before assuming any PSU works.
 - **Monitor**: pcmonitors.info — an actively maintained review site
   covering panel type (OLED/IPS/VA), size/resolution combos (27"–34"
   ultrawide), and refresh rate (160–560Hz) with current-generation reviews
